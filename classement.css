@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/nbafond.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #000000;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+i{
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header .liens_header{
+    padding-top: 5%;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bleu {
+    background-color: #1d428a;
+}
+
+h1{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1d428a;
+    margin-bottom: 30px;
+}
+
+.haut_tab{
+    font-weight: bold;
+}
+
+table, td {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+thead, tfoot {
+    background-color: #c7102e;
+    color: #ffffff;
+}
+
+footer {
+
+    background-color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+footer .liens_footer{
+    padding-top: 5%;
+}
+
+footer .liens_footer2{
+    padding-top: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .liens_mentions{
+    margin-top: 20%;
+
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    footer .footer_nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2em;
+    }
+
+    .liens_footer2{
+        font-size: 1.2em;
+    }
+}

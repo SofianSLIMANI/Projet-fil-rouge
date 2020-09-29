@@ -1,0 +1,247 @@
+body{
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/nbafond.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #000000;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+i{
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header .liens_header{
+    padding-top: 5%;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bleu {
+    background-color: #1d428a;
+}
+
+main h1{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 2%;
+}
+
+.bleu p{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+
+main h2{
+    color: #ffffff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 74%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+
+.card h4{
+    color: #ffffff;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card img{
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+.equipes{
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+
+
+main h3{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+main h5{
+    color: #ffffff;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    text-align: center;
+    border-radius:20px;
+}
+
+.card2 h4{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.card2 p{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card2 .container {
+    padding: 2px 16px;
+
+}
+
+.membres1{
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.membres2{
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+
+footer {
+
+    background-color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+footer .liens_footer{
+    padding-top: 5%;
+}
+
+footer .liens_footer2{
+    padding-top: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .liens_mentions{
+    margin-top: 20%;
+
+}
+
+@media screen and (min-width: 768px){
+
+    main h1{
+        font-size: 40px;
+    }
+
+    main h2{
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    main h3{
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    main h5{
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .card2 h4{
+        font-size: 20px;
+    }
+
+    .card2 p{
+        font-size: 18px;
+    }
+
+    .card h4{
+        font-size: 30px;
+    }
+
+    .card p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    .equipes{
+        display: flex;
+    }
+    .card{
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    .card2{
+        width: 20%;
+        margin-left: 3%;
+    }
+
+    .membres1{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
+
+    .membres2{
+        display: flex;
+    }
+
+    footer .footer_nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2em;
+    }
+
+    .liens_footer2{
+        font-size: 1.2em;
+    }
+}

@@ -8,16 +8,28 @@
     <link href="classement.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49fa084123.js" crossorigin="anonymous"></script>
     <title>Classement</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+            crossorigin="an)onymous"></script>
 </head>
 <body>
-<header>
+<header id="acceuil">
+
+    <i class="fas fa-bars"></i>
+    <div class="hide1">
+        <i class="fas fa-times"></i>
+    </div>
+
     <img src="img/logosba.png" alt="logoSBA">
+
+</header>
+<div class="hide">
     <nav class="liens_header"><a href="index.html"><i class="fas fa-home"></i><br>Acceuil</a></nav>
-    <nav class="liens_header"><a href="#sondages"><i class="fas fa-poll-h"></i><br>Sondages</a></nav>
+    <nav class="liens_header"><a href="index.html#sondages"><i class="fas fa-poll-h"></i><br>Sondages</a></nav>
     <nav class="liens_header"><a href="actualite"><i class="fas fa-star"></i><br>Actualtés</a></nav>
     <nav class="liens_header"><a href="classement.html"><i class="fas fa-clipboard-list"></i><br>Classement</a></nav>
     <nav class="liens_header"><a href="connexion"><i class="fas fa-user"></i><br>Connexion</a></nav>
-</header>
+</div>
 <main>
     <div class="bleu">
         <h1>Classement général</h1>
@@ -98,5 +110,7 @@
     </div>
     <nav class="liens_footer2"><a href="mentions">Mentions légales</a></nav>
 </footer>
+<script src="jquery-3.4.1.slim.min.js"> </script>
+<script src="main.js"></script>
 </body>
 </html>

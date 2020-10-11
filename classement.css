@@ -11,6 +11,7 @@ header{
     justify-content: space-around;
     text-align: center;
     padding-bottom: 5%;
+    display: flex;
 }
 
 i{
@@ -23,10 +24,59 @@ header .liens_header{
 
 }
 
+header img{
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 50%;
+}
+
 header a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+
+.fa-bars{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 8%;
+
+}
+
+.hide1 i{
+    font-size: 50px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+    background-color: #ffffff;
+
+}
+
+.hide nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hide a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+}
+
+.hide i{
+    color: #000000;
+}
+
+.hide1{
+    display: none;
 }
 
 .bleu {
@@ -89,10 +139,40 @@ footer .liens_mentions{
 
 }
 
+@media screen and (min-width: 768px){
+
+
+    .fa-bars{
+        font-size: 90px;
+
+
+    }
+
+    .hide1 i{
+        font-size: 90px;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     header {
         display: flex;
         font-size: 1.5em;
+    }
+    header img{
+        margin-top: 5%;
+        width: 17%;
+        height: auto;
+        margin-left: 68%;
+    }
+
+    .hide1 i{
+        margin-left: 40px;
+    }
+
+    .fa-bars{
+        margin-top: 5%;
     }
 
     footer .footer_nav{
@@ -109,5 +189,18 @@ footer .liens_mentions{
 @media screen and (min-width: 1280px) {
     header img {
         margin-top:2%;
+    }
+
+    .hide1 i{
+        margin-left: 80px;
+        margin-top: 83px;
+    }
+
+    .hide nav{
+        display: inline-flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        margin-left: 10%;
     }
 }

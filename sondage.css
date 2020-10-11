@@ -11,6 +11,7 @@ header{
     justify-content: space-around;
     text-align: center;
     padding-bottom: 5%;
+    display: flex;
 }
 
 i{
@@ -27,6 +28,63 @@ header a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+
+.fa-bars{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 8%;
+
+}
+
+.hide1 i{
+    font-size: 50px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+    background-color: #ffffff;
+
+}
+
+.hide nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hide a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+}
+
+.hide i{
+    color: #000000;
+}
+
+.hide1{
+    display: none;
+}
+
+#name{
+    background-color: #1d428a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#resultat{
+    background-color: #1d428a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
 }
 
 .bleu {
@@ -108,6 +166,16 @@ main h5{
     border-radius:20px;
 }
 
+.check{
+    color: #c7102e;
+    width: 25px;
+    height: 25px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 7px;
+
+}
+
 .card2 h4{
     font-size: 15px;
     color: #ffffff;
@@ -132,14 +200,36 @@ main h5{
 
 }
 
+.checkeff{
+    align-items: center;
+}
+
 .membres1{
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: auto;
 }
 
 .membres2{
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: auto;
+}
+
+.valide{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 6% auto 6% 38%;
+    border-color: #ffffff;
+
+}
+
+.valide:hover{
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    cursor:pointer;
 }
 
 
@@ -170,6 +260,29 @@ footer .liens_mentions{
 
 @media screen and (min-width: 768px){
 
+    .fa-bars{
+        font-size: 90px;
+
+
+    }
+
+    .hide1 i{
+        font-size: 90px;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+
+    #name{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom:10px;
+    }
+
+    .check{
+        margin-left: 45%;
+
+    }
+
     main h1{
         font-size: 40px;
     }
@@ -189,6 +302,7 @@ footer .liens_mentions{
         margin-left: 2%;
     }
 
+
     .card2 h4{
         font-size: 20px;
     }
@@ -204,12 +318,30 @@ footer .liens_mentions{
     .card p{
         font-size: 25px;
     }
+    .valide{
+        margin-left: 41%;
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     header {
         display: flex;
         font-size: 1.5em;
+    }
+    header img{
+        margin-top: 5%;
+        width: 17%;
+        height: auto;
+        margin-left: 68%;
+    }
+
+    .hide1 i{
+        margin-left: 40px;
+    }
+
+    .fa-bars{
+        margin-top: 5%;
     }
 
     .equipes{
@@ -221,8 +353,8 @@ footer .liens_mentions{
     }
 
     .card2{
-        width: 20%;
-        margin-left: 3%;
+        width: 15%;
+        margin-left: 2%;
     }
 
     .membres1{
@@ -244,11 +376,32 @@ footer .liens_mentions{
     .liens_footer2{
         font-size: 1.2em;
     }
+
+    .valide{
+        margin-left: 43%;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     header img {
         margin-top:2%;
+    }
+
+    .hide1 i{
+        margin-left: 80px;
+        margin-top: 83px;
+    }
+
+    .hide nav{
+        display: inline-flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .valide{
+        margin-left: 45%;
     }
 
 

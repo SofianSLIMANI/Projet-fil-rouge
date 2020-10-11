@@ -8,65 +8,84 @@
     <link href="sondage.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49fa084123.js" crossorigin="anonymous"></script>
     <title>Sondage</title>
+
 </head>
 <body>
-<header>
+<header id="acceuil">
+
+    <i class="fas fa-bars"></i>
+    <div class="hide1">
+        <i class="fas fa-times"></i>
+    </div>
+
     <img src="img/logosba.png" alt="logoSBA">
+
+</header>
+<div class="hide">
     <nav class="liens_header"><a href="index.html"><i class="fas fa-home"></i><br>Acceuil</a></nav>
     <nav class="liens_header"><a href="index.html#sondages"><i class="fas fa-poll-h"></i><br>Sondages</a></nav>
     <nav class="liens_header"><a href="actualite"><i class="fas fa-star"></i><br>Actualtés</a></nav>
     <nav class="liens_header"><a href="classement.html"><i class="fas fa-clipboard-list"></i><br>Classement</a></nav>
     <nav class="liens_header"><a href="connexion"><i class="fas fa-user"></i><br>Connexion</a></nav>
-</header>
+</div>
 <main>
+    <div id="name">
+
+    </div>
+    <div id="resultat">
+
+    </div>
     <div class="bleu">
         <h1>Pistons vs Wizard</h1>
         <p>20:00</p>
     </div>
 
-    <h2>Vainqueur :</h2>
+    <h2 id="question_0"></h2>
 
-    <div class="equipes">
+    <div id="responces_0" class="equipes">
         <div class="card">
             <img src="img/logopistons.png" alt="Logo Pistons">
             <div class="container">
-                <h4><b>Detroit Pistons</b></h4>
-                <p>1,20</p>
+                <h4 id="response_0_0"><b></b></h4>
+                <input type="checkbox" class="check" id="checkbox_0_0">
             </div>
         </div>
         <div class="card">
             <img src="img/logowizards.png" alt="Logo Wizards">
             <div class="container">
-                <h4><b>Washington Wizards</b></h4>
-                <p>2,05</p>
+                <h4 id="response_0_1"><b></b></h4>
+                <input type="checkbox" class="check" id="checkbox_0_1">
             </div>
         </div>
     </div>
 
-    <h3>MVP de la partie:</h3>
+    <h3 id="MVP">Meilleur joueur de chaque équipe :</h3>
 
-    <h5>Effectif Pistons:</h5>
+    <h5 id="question_1"></h5>
 
-    <div class="membres1">
+    <div id="responces_1" class="membres1">
         <div class="card2">
             <img src="img/jackson.jpg" alt="Jackson">
             <div class="container">
-                <h4><b>Reggie Jackson</b></h4>
+                <h4 id="response_1_0"><b></b></h4>
                 <p>Meneur</p>
+                <input type="checkbox" class="checkeff" id="checkbox_1_0">
             </div>
         </div>
         <div class="card2">
             <img src="img/snell.jpg" alt="Snell">
             <div class="container">
-                <h4><b>Tony Snell</b></h4>
+                <h4 id="response_1_1"><b></b></h4>
                 <p>Ailier</p>
+                <input type="checkbox" class="checkeff" id="checkbox_1_1">
             </div>
         </div>
         <div class="card2">
             <img src="img/griffin.jpg" alt="Griffin">
             <div class="container">
-                <h4><b>Blake Griffin</b></h4>
+                <h4 id="response_1_2"><b></b></h4>
                 <p>Ailier fort</p>
+                <input type="checkbox" class="checkeff" id="checkbox_1_2">
             </div>
         </div>
 
@@ -75,59 +94,68 @@
         <div class="card2">
             <img src="img/brown.jpg" alt="Brown">
             <div class="container">
-                <h4><b>Bruce Brown</b></h4>
+                <h4 id="response_1_3"><b></b></h4>
                 <p>Arrière</p>
+                <input type="checkbox" class="checkeff" id="checkbox_1_3">
             </div>
         </div>
         <div class="card2">
             <img src="img/drummond.jpg" alt="Drummond">
             <div class="container">
-                <h4><b>Andre Drummond</b></h4>
+                <h4 id="response_1_4"><b></b></h4>
                 <p>Pivot</p>
+                <input type="checkbox" class="checkeff" id="checkbox_1_4">
             </div>
         </div>
     </div>
 
-    <h5>Effectif Wizards:</h5>
+    <h5 id="question_2"></h5>
 
     <div class="membres1">
         <div class="card2">
             <img src="img/smith.jpg" alt="Smith">
             <div class="container">
-                <h4><b>Ish Smith</b></h4>
+                <h4 id="response_2_0"><b></b></h4>
                 <p>Meneur</p>
+                <input type="checkbox" class="checkeff" id="checkbox_2_0">
             </div>
         </div>
         <div class="card2">
             <img src="img/hachimura.jpg" alt="Hachimura">
             <div class="container">
-                <h4><b>Rui Hachimura</b></h4>
+                <h4 id="response_2_1"><b></b></h4>
                 <p>Ailier</p>
+                <input type="checkbox" class="checkeff" id="checkbox_2_1">
             </div>
         </div>
         <div class="card2">
             <img src="img/Bertāns.jpg" alt="Bertāns">
             <div class="container">
-                <h4><b>Dāvis Bertāns</b></h4>
+                <h4 id="response_2_2"><b></b></h4>
                 <p>Ailier fort</p>
+                <input type="checkbox" class="checkeff" id="checkbox_2_2">
             </div>
         </div>
 
         <div class="card2">
             <img src="img/beal.jpg" alt="Bal">
             <div class="container">
-                <h4><b>Bradley Beal</b></h4>
+                <h4 id="response_2_3"><b></b></h4>
                 <p>Arrière</p>
+                <input type="checkbox" class="checkeff" id="checkbox_2_3">
             </div>
         </div>
         <div class="card2">
             <img src="img/bryant.jpg" alt="Bryant">
             <div class="container">
-                <h4><b>Thomas Bryant</b></h4>
+                <h4 id="response_2_4"><b></b></h4>
                 <p>Pivot</p>
+                <input type="checkbox" class="checkeff" id="checkbox_2_4">
             </div>
         </div>
     </div>
+
+    <input class="valide" type="button" value="Valider">
 </main>
 <footer>
     <div class="footer_nav">
@@ -140,5 +168,8 @@
     </div>
     <nav class="liens_footer2"><a href="mentions">Mentions légales</a></nav>
 </footer>
+<script src="jquery-3.4.1.slim.min.js"> </script>
+<script src="sondage.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
